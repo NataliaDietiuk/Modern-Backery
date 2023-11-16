@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Сучасна пекарня</title>
 </head>
 
@@ -30,18 +31,21 @@
         <section>
             <h1>Сучасна пекарня</h1>
         </section>
-        <!-- A new format of traditions -->
-        <section id="traditions-container">
+        <section>
             <ul>
                 <li>Великий попит на ринку</li>
                 <li>Доступні за бюджетом формати</li>
                 <li>Досвідчена управлінська команда</li>
             </ul>
+        </section>
+        <!-- A new format of traditions -->
+        <section id="traditions-container">
             <h2>Новий формат традицій</h2>
-            <p><span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
+            <p><span lang="en">shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної
+                випічки та
                 натуральність інгредієнтів.</p>
             <p>
-                Ми працюємо як найвідоміші мережі—
+                Ми працюємо як найвідоміші мережі —
                 <span>5 хвилин і замовлення готове.</span>
                 А ще у наших пекарень стильний дизайн
                 та висока якість обслуговування!
@@ -65,7 +69,7 @@
                     <article>
                         <h3>Влад</h3>
                         <p> Привіт, я Влад!</p>
-                        <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з якою ми ділимось
+                        <p>Мій кодитерський стаж вже 18 років. SHOP BAKERY - це наша любов, з якою ми ділимось
                             кожен раз з Вами через нашу випічку!</p>
                         <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
                         <img src="./images/Vlad.jpg" alt="Пекар Влад" width="584">
@@ -80,16 +84,28 @@
                 <li>
                     <article>
                         <h3 lang="en">Walrus</h3>
+                        <p>Площа: до 120 м2</p>
+                        <p>Меню: розширене меню</p>
+                        <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
+                        <p>Посадкові місця: є</p>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h3 lang="en">Horseshoe</h3>
+                        <p>Площа: до 25 м2</p>
+                        <p>Меню: найпопулярніші позиції меню</p>
+                        <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
+                        <p>Посадкові місця: відсутні</p>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h3 lang="en">Handlebar</h3>
+                        <p>Площа: до 15 м2</p>
+                        <p>Меню: найпопулярніші позиції меню</p>
+                        <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+                        <p>Посадкові місця: відсутні</p>
                     </article>
                 </li>
             </ul>
@@ -98,7 +114,15 @@
         <section id="contacts-container">
             <h2>Приєднуйся до мережі пекарень</h2>
             <!-- Form -->
-
+            <p>Заповни форму, щоб ми звʼязались з тобою!</p>
+            <form action="">
+                <input type="text" name="name" placeholder="Ім’я"><br>
+                <input type="tel" name="phone" placeholder="Телефон"><br>
+                <input type="email" name="email" placeholder="Електронна пошта"><br>
+            </form>
+            <p>Натискаючи на кнопку я погоджуюсь
+                <a href="#"><u>з політикою конфіденційності</u></a>
+            </p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699953852329!5m2!1suk!2sua"
                 width="603" height="595" allowfullscreen="" loading="lazy"
@@ -106,31 +130,39 @@
         </section>
         <!-- Footer -->
         <footer>
-            <a href="./index.html">
-                <!-- Logo -->
-                <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
-            </a>
-            <ul>
-                <li><a href="#traditions-container">Наші традиції</a></li>
-                <li><a href="#chefs-container">Шеф-кухарі</a></li>
-                <li><a href="#formats-container">Формати</a></li>
-                <li><a href="#contacts-container">Контакти</a></li>
-            </ul>
+            <nav>
+                <a href="./index.html">
+                    <!-- Logo -->
+                    <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
+                </a>
+                <ul>
+                    <li><a href="#traditions-container">Наші традиції</a></li>
+                    <li><a href="#chefs-container">Шеф-кухарі</a></li>
+                    <li><a href="#formats-container">Формати</a></li>
+                    <li><a href="#contacts-container">Контакти</a></li>
+                </ul>
+            </nav>
             <address>
                 <ul>
                     <li><a href="tel:+380960000007"></a>+ 38 (096) 000 00 07</li>
                     <li><a href="mailto:shopbakery@gmail.com"></a>shopbakery@gmail.com</li>
                     <li><a href="https://maps.app.goo.gl/SvD66bGZupn16T4t5" target="_blank">
                             Україна, м. Київ, вул. Січових Стрільців 54</a></li>
-                    <li><a href="#">
-                            <!-- Facebook icon -->
-                        </a></li>
-                    <li><a href="#">
-                            <!-- Instagram icon -->
-                        </a></li>
                 </ul>
-                <a href="#">Політика конфіденційності</a>
-                <p>&copy; 2022 Дані захищені</p>
+                <div>
+                    <a href="#">
+                        <!-- Facebook icon -->
+                        <img src="./images/facebook_icon.svg" alt="Іконка для переходу на Фейсбук сучасної пекарні">
+                    </a>
+                    <a href="#">
+                        <!-- Instagram icon -->
+                        <img src="./images/instagram_icon.svg" alt="Іконка для переходу на Інстаграм сучасної пекарні">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">Політика конфіденційності</a>
+                    <p>&copy; 2022 Дані захищені</p>
+                </div>
             </address>
         </footer>
     </main>
