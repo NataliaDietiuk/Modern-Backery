@@ -1,9 +1,120 @@
+body {
+  color: #31261a;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-a {
+a,
+a:link {
+  color: #faf4ea;
   text-decoration-line: none;
+}
+
+/* Link to header and footer */
+
+.link {
+  color: #faf4ea;
+}
+
+.link:hover,
+.link:focus {
+  color: #819b57;
+}
+
+/* Button header */
+
+.button-ordered {
+  color: #faf4ea;
+  border-radius: 8px;
+  border: 2px solid #819b57;
+  background: #819b57;
+  cursor: pointer;
+}
+
+.button-ordered:hover,
+.button-ordered:focus {
+  color: #465929;
+  background-color: transparent;
+}
+
+/* Hero section */
+
+.hero-title {
+  color: #faf4ea;
+}
+
+.accent {
+  color: #819b57;
+}
+
+/* Advantages section */
+
+.advantages {
+  color: #faf4ea;
+  background-color: #819b57;
+}
+
+/* .section-title {
+  color: #31261a;
+} */
+
+/* Traditions section */
+
+.accent.uppercase {
+  text-transform: uppercase;
+}
+
+/* Chefs section */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Formats section */
+
+.formats-list {
+  color: #faf4ea;
+}
+
+/* Contact section */
+
+.contacts-form-title {
+  color: #465929;
+}
+
+/* Form */
+
+.contacts-form {
+  color: #a18268;
+  border-radius: 8px;
+  border: 1px solid #a18268;
+}
+
+.contacts-form:active {
+  color: #31261a;
+  border: 1px solid #819b57;
+}
+
+.privacy {
+  color: #31261a;
+}
+
+.map {
+  border-radius: 16px;
+  width: 603px;
+  height: 595px;
+}
+
+/* Footer */
+
+.address {
+  font-style: normal;
+}
+
+.copyright {
+  color: #a18268;
 }
