@@ -1,5 +1,15 @@
+:root {
+  --color-brand-dark: #465929;
+  --color-brand-light: #819b57;
+  --color-hero-dark: #31261a;
+  --color-hero-light: #faf4ea;
+  --color-secondary: #a18268;
+}
+
+/* Base styles */
+
 body {
-  color: #31261a;
+  color: var(--color-hero-dark);
 }
 
 ul {
@@ -10,65 +20,69 @@ ul {
 
 a,
 a:link {
-  color: #faf4ea;
+  color: var(--color-hero-light);
   text-decoration-line: none;
 }
 
 /* Link to header and footer */
 
 .link {
-  color: #faf4ea;
+  color: var(--color-hero-light);
 }
 
 .link:hover,
 .link:focus {
-  color: #819b57;
+  color: var(--color-brand);
 }
 
 /* Button header */
 
 .button-ordered {
-  color: #faf4ea;
+  color: var(--color-hero-light);
   border-radius: 8px;
-  border: 2px solid #819b57;
-  background: #819b57;
+  border: 2px solid var(--color-brand-light);
+  background: var(--color-brand-light);
   cursor: pointer;
 }
 
 .button-ordered:hover,
 .button-ordered:focus {
-  color: #465929;
+  color: var(--color-brand-dark);
   background-color: transparent;
 }
 
 /* Hero section */
 
 .hero-title {
-  color: #faf4ea;
+  color: var(--color-hero-light);
 }
 
 .accent {
-  color: #819b57;
+  color: var(--color-brand);
 }
 
 /* Advantages section */
 
 .advantages {
-  color: #faf4ea;
-  background-color: #819b57;
+  color: var(--color-hero-light);
+  background-color: var(--color-brand);
 }
 
 /* .section-title {
-  color: #31261a;
+  color: var(--color-hero-dark);
 } */
 
 /* Traditions section */
 
-.accent.uppercase {
+.uppercase {
   text-transform: uppercase;
 }
 
 /* Chefs section */
+
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -77,30 +91,30 @@ a:link {
 /* Formats section */
 
 .formats-list {
-  color: #faf4ea;
+  color: var(--color-hero-light);
 }
 
 /* Contact section */
 
 .contacts-form-title {
-  color: #465929;
+  color: var(--color-brand-dark);
 }
 
 /* Form */
 
 .contacts-form {
-  color: #a18268;
+  color: var(--color-secondary);
   border-radius: 8px;
-  border: 1px solid #a18268;
+  border: 1px solid var(--color-secondary);
 }
 
 .contacts-form:active {
-  color: #31261a;
-  border: 1px solid #819b57;
+  color: var(--color-hero-dark);
+  border: 1px solid var(--color-brand);
 }
 
 .privacy {
-  color: #31261a;
+  color: var(--color-hero-dark);
 }
 
 .map {
@@ -116,5 +130,5 @@ a:link {
 }
 
 .copyright {
-  color: #a18268;
+  color: var(--color-secondary);
 }
