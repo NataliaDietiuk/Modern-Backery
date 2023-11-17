@@ -32,7 +32,7 @@ a:link {
 
 .link:hover,
 .link:focus {
-  color: var(--color-brand);
+  color: var(--color-brand-light);
 }
 
 /* Button header */
@@ -58,14 +58,14 @@ a:link {
 }
 
 .accent {
-  color: var(--color-brand);
+  color: var(--color-brand-light);
 }
 
 /* Advantages section */
 
 .advantages {
   color: var(--color-hero-light);
-  background-color: var(--color-brand);
+  background-color: var(--color-brand-light);
 }
 
 /* .section-title {
